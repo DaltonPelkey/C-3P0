@@ -26,5 +26,5 @@ exports.help = {
     name: "stats.bot",
     category: "Miscelaneous",
     description: "Gives some useful bot statistics",
-    usage: "stats"
+    usage: "stats.bot"
 };
