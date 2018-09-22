@@ -1,0 +1,35 @@
+{
+  "name": "c-3p0",
+  "version": "0.0.1",
+  "description": "Discord bot with random commands",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/popatop15/C-3P0.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discordjs",
+    "discord.js"
+  ],
+  "author": "Dalton (https://github.com/popatop15)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/popatop15/C-3P0/issues"
+  },
+  "homepage": "https://github.com/popatop15/C-3P0#readme",
+  "dependencies": {
+    "better-sqlite-pool": "^0.1.2",
+    "chalk": "^2.4.1",
+    "discord.js": "^11.4.2",
+    "dotenv": "^6.0.0",
+    "enmap": "^4.3.0",
+    "moment": "^2.22.2",
+    "moment-duration-format": "^2.2.2"
+  }
+}

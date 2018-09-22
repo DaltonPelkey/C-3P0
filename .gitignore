@@ -1,3 +1,9 @@
+# Configs
+config.js
+
+# Databases (sqlite)
+data/
+
 # Logs
 logs
 *.log
