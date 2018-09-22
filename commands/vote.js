@@ -7,12 +7,12 @@ exports.run = (client, message, args, level) => {
 
     const response = new Discord.RichEmbed();
     const validEmojis = ["👍", "👎", "✋"];
-    const title = args.join(" ");
+    const title = args.join(" ")  + "\n";
     const pollText = ":thumbsup: - Yes\n\n:thumbsdown: - No\n\n:raised_hand: - No Vote\n\n";
 
     response.setColor([242, 214, 133]);
-    response.setTitle( title + "\n");
-    response.setFooter("Created by " + message.author.username);
+    response.setTitle(title);
+    response.setFooter(`Created by ${message.author.username}`);
     response.setTimestamp(new Date());
     response.addField("\u200b", pollText, false);
 
