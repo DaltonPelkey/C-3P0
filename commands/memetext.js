@@ -1,7 +1,3 @@
-const { version } = require("discord.js");
-const moment = require("moment");
-require("moment-duration-format");
-
 exports.run = (client, message, args, level) => {
     if (args.length < 1) return message.reply("You have to give me some text to meme-ify, silly :P");
 
