@@ -1,5 +1,5 @@
 # C-3P0
-A Discord Bot
+A Barebones Discord Bot
 
 ### Template Credit: [GuideBot](https://github.com/AnIdiotsGuide/guidebot)
 
